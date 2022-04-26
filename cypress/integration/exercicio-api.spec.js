@@ -6,13 +6,14 @@ describe('Testes da Funcionalidade Usuários', () => {
          //TODO: 
     });
 
-    it('Deve listar usuários cadastrados', () => {
-         //TODO: 
+    it.only('Deve listar usuários cadastrados', () => {
+         
+       ok
     });
 
     it('Deve cadastrar um usuário com sucesso', () => {
          //TODO: 
-    });
+    }); 
 
     it('Deve validar um usuário com email inválido', () => {
          //TODO: 
